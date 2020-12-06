@@ -1,0 +1,573 @@
+/* ============= */
+/* Custom Stylesheet for Ngage */
+/* by Maddy (Bright8Media) */
+/* ============= */
+
+
+/*
+█▀▄▀█ █▀▀█ ░▀░ █▀▀▄ 　 █▀▀█ █▀▀█ █▀▀▀ █▀▀
+█░▀░█ █▄▄█ ▀█▀ █░░█ 　 █░░█ █▄▄█ █░▀█ █▀▀
+▀░░░▀ ▀░░▀ ▀▀▀ ▀░░▀ 　 █▀▀▀ ▀░░▀ ▀▀▀▀ ▀▀▀
+*/
+
+a:focus, button:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: transparent;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.001) inset, 0 0 1px rgba(255, 255, 255, 0.1);
+    outline: 0 none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    max-width: 100%;
+
+    background-color: #838383;
+}
+
+.main {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.ngagenav {
+    z-index: 800;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.45);
+    height: 100px;
+    border: none;
+
+    -webkit-transition:background-color 1s;
+    -moz-transition:background-color 1s;
+    transition:background-color 1s;
+}
+
+.ngagebrand {
+    position: relative;
+    z-index: 9000;
+    padding-top: 31px;
+}
+
+.ngagenav_rite {
+    padding-top: 28px;
+}
+
+img.ngagelogo {
+    width: 90%;
+}
+
+.navbar-fixed-top .navbar-nav > li a {
+    font-family: "Droid Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.navbar-fixed-top .navbar-nav > li > a:hover,
+.navbar-fixed-top .navbar-nav > li > a:focus {
+    color: #fba225;
+    background-color: transparent;
+}
+
+.navbar-fixed-top .navbar-nav > li > a.active {
+    color: #fba225;
+    cursor: default;
+    pointer-events: none;
+}
+
+.navbar-fixed-top .navbar-toggle {
+    position: relative;
+    top: 25px;
+    border: none;
+
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.rotator {
+    -webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    -ms-transform: rotateZ(90deg);
+    -o-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+}
+
+.navbar-fixed-top .navbar-toggle:hover, .navbar-fixed-top .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-fixed-top .navbar-toggle span.icon-bar {
+    background-color: #ccc;
+}
+
+.navbar-fixed-top .navbar-toggle:hover span.icon-bar {
+    background-color: #fba225;
+}
+
+
+
+
+
+
+/* ====== */
+/* >>>>>>> HEADER <<<<<<< */
+/* ====== */
+
+.ngage_header_area {
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+.content_holder_crooked {
+    background: url("../img/blackred_bgd_cropped.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: inline-block;
+    position: relative;
+    height: 980px;
+    width: 100%;
+    margin-top: -20%;
+    overflow-y: hidden;
+}
+
+.content_holder_crooked_2 {
+    display: inline-block;
+    position: relative;
+    height: 960px;
+    width: 100%;
+    margin-top: -20%;
+    overflow-y: hidden;
+}
+
+.h_banner_area {
+    position: absolute;
+    width: 100%;
+    z-index: 300;
+    margin: 0 auto;
+    text-align: center;
+    top: 25%;
+}
+
+
+.phone_slider_holder {
+    position: relative;
+    top: -45px;
+    padding-right: 50px;
+}
+
+.phone_holder {
+    background: url('../img/cellphone_empty.png') no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    width: 205px;
+    height: 730px;
+    float: right;
+}
+
+.ngage_slide_ttl_and_info {
+    -webkit-transition: all 1.8s ease-in-out;
+    -moz-transition: all 1.8s ease-in-out;
+    -ms-transition: all 1.8s ease-in-out;
+    -o-transition: all 1.8s ease-in-out;
+    transition: all 1.8s ease-in-out;
+}
+
+.slider_riteside_holder {
+    float: left;
+}
+
+.slider_riteside_holder h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 1px 1px #666;
+}
+
+.slider_riteside_holder h2 span {
+    font-weight: 700;
+}
+
+.slider_riteside_holder p {
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-align: left;
+    height: 80px;
+    width: 75%;
+    margin-bottom: 30px;
+}
+
+a.ngage_learnmore_btn {
+    font-size: 1.4rem;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 25%;
+    margin-bottom: 30px;
+
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+a.ngage_learnmore_btn:hover {
+    background: #ffffff;
+    color: #401612;
+}
+
+img.p_slide {
+    width: 90%;
+    height: 289px;
+    margin-left: 10px;
+    margin-top: 54px;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.hideme {
+    display: none;
+}
+
+
+.store_btnz_holder {
+    clear: both;
+    padding-left: 0;
+}
+
+a.storez_btn {
+    /*display: inline-block;*/
+    float: left;
+    margin-right: 18px;
+    height: 55px;
+    width: 180px;
+}
+
+
+
+
+
+
+/* ====== */
+/* >>>>>>> FEATURES <<<<<<< */
+/* ====== */
+
+.features_area {
+    position: relative;
+    z-index: 500;
+    background-color: #ffffff;
+    margin-top: -13%;
+    padding-top: 60px;
+    height: 1060px;
+
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility:     hidden;
+    -moz-backface-visibility:    hidden;
+    backface-visibility:         hidden;
+    outline: 1px solid transparent;
+}
+
+.features_str8 {
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);
+
+    /*background: url("../img/degeneradots.png") no-repeat;*/
+
+    height: 1600px;
+    background-position: 335px 161px;
+
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility:     hidden;
+    -moz-backface-visibility:    hidden;
+    backface-visibility:         hidden;
+    outline: 1px solid transparent;
+}
+
+
+.ftrz_midmain_holder {
+    padding-left: 15%;
+}
+
+h1.features_ttl {
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: #414042;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.featureboxx {
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+.icon_holder {
+    padding-left: 0;
+}
+
+span.f_icon {
+    display: block;
+    height: 136px;
+    width: 136px;
+}
+
+.info_holder {
+    padding-left: 0;
+}
+
+h5.f_ttl {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #414042;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+p.f_details {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #414042;
+    text-align: left;
+    height: 90px;
+}
+
+
+
+
+
+/* ====== */
+/* >>>>>>> CONTACTS <<<<<<< */
+/* ====== */
+
+.contactus_area {
+    position: relative;
+    z-index: 600;
+    background-color: #838383;
+    margin-top: -13%;
+    padding-top: 60px;
+    /*height: 880px;*/
+
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility:     hidden;
+    -moz-backface-visibility:    hidden;
+    backface-visibility:         hidden;
+    outline: 1px solid transparent;
+}
+
+.contactus_str8 {
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);
+
+    /*background: url("../img/degeneradots.png") no-repeat;*/
+
+    min-height: 600px;
+    height: auto;
+    background-position: 335px 161px;
+
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility:     hidden;
+    -moz-backface-visibility:    hidden;
+    backface-visibility:         hidden;
+    outline: 1px solid transparent;
+}
+
+
+.contactus_midmain_holder {
+    padding-left: 15%;
+    width: 90%;
+}
+
+h1.contactus_ttl {
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.ngage_form_grp {
+    padding-left: 0;
+}
+
+input.ngage_input {
+    height: 50px;
+    background: #838383;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding-left: 12px;
+}
+
+input.ngage_input:focus {border: 2px solid #ffffff;}
+
+textarea.ngage_txt {
+    background: #838383;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding-left: 12px;
+    padding-top: 8px;
+    resize: none;
+    margin-bottom: 18px;
+}
+
+textarea.ngage_txt:focus {
+    border: 2px solid #ffffff;
+}
+
+.submit_button_holder {
+    float: right;
+}
+
+button.ngage_form_submit_btn {
+    font-size: 1.675rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #e96759;
+    background: #ffffff;
+    width: 100%;
+
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+button.ngage_form_submit_btn:hover, button.ngage_form_submit_btn:focus {
+    background: #e96759;
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */ color: #ffffff !important; opacity: 1;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #ffffff !important; opacity: 1;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #ffffff !important; opacity: 1;}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #ffffff !important; opacity: 1 !important;}
+
+
+
+
+
+
+/* ====== */
+/* >>>>>>> CONTACTS <<<<<<< */
+/* ====== */
+
+footer.ngagefooter {
+    position: relative;
+    z-index: 603;
+    background: url('../img/footer_bgd.jpg') center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    bottom: 0;
+    min-height: 150px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul.socialize {
+    padding-left: 18px;
+    display: table;
+    margin-bottom: 18px;
+}
+
+ul.socialize li {
+    list-style-type: none;
+    float: left;
+    margin-right: 12px;
+}
+
+a.circlink {
+    display: block;
+    height: 36px;
+    width: 36px;
+    font-size: 1.9rem;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 100%;
+    text-align: center;
+
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+a.circlink:hover {
+    background: #e96759;
+    color: #ffffff;
+}
+
+a.circlink i {
+    margin-top: 9px;
+}
+
+small.footer_infoline {
+    display: inline-block;
+    padding-left: 0;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+}
